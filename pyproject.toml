@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "quantist-md"
+version = "0.1.0"
+description = "Quantist.io website, blog, and documentation."
+authors = ["kevindaffaarr <kevindaffaar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs-material = {extras = ["imaging"], version = "^9.5.6"}
+mkdocs-glightbox = "^0.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
