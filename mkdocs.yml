@@ -1,3 +1,132 @@
 site_name: Quantist.io
+site_url: https://quantist.io
+site_description:  "Jadilah pakar investasi anda sendiri dengan Quantist.io! Gunakan analisis transaksi, foreign flow analysis, bandarmologi, dan top-down analysis untuk menjadi investor dan trader yang percaya diri dalam setiap keputusan."
+site_author: Kevin Daffa Arrahman
+
 theme:
   name: material
+  custom_dir: overrides
+  features:
+    - content.code.annotate
+    - content.tooltips
+    - content.code.copy
+    - content.tabs.link
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - header.autohide
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+  font:
+    text: Source Sans 3
+    code: Source Code Pro
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Swtich to light mode
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      title: Table of Contents
+      permalink: true
+  # Python Markdown Extension
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - social
+  - tags
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: black
+      shadow: true
+  - blog:
+      blog_dir: blog
+      draft_on_serve: true
+      blog_toc: true
+      archive_toc: true
+      categories_toc: true
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 1
+      post_excerpt: required
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      categories_allowed:
+        - "Dasar Analisis Saham"
+        - "Dasar Foreign Flow Analysis"
+        - "Tutorial"
+
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Telegram Bot: https://t.me/quantistiobot
+  - Authors: https://kevin.quantist.io
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/quantistiobot
+      name: Quantist.io Telegram Bot
+    - icon: octicons/mail-16
+      link: mailto:kevin@quantist.io
+      name: Quantist.io creator email
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/quantist_io
+      name: Quantist.io Twitter
