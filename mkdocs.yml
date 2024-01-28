@@ -6,6 +6,8 @@ site_author: Kevin Daffa Arrahman
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/logo.png
   features:
     - content.code.annotate
     - content.tooltips
@@ -79,6 +81,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - social
@@ -110,7 +115,6 @@ plugins:
         - "Dasar Analisis Saham"
         - "Dasar Foreign Flow Analysis"
         - "Tutorial"
-
 
 nav:
   - Home: index.md
