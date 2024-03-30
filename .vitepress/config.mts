@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'url'
 import { defineConfig, type DefaultTheme, type HeadConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
@@ -18,6 +19,19 @@ export default defineConfig({
     },
     socialLinks: socialLinks(),
     footer: { message: "Quantist.io: Capturing The Silhouette of Data" }
+  },
+
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPHero\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/VPHero-custom.vue', import.meta.url)
+          )
+        }
+      ]
+    }
   },
 
   head: head(),
@@ -64,8 +78,8 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     { text: 'Docs',
       items: [
-        { text: 'User Guide', link: '/user-guide/markdown-examples' },
-        { text: 'Blog', link: '/blog/markdown-examples' }
+        { text: 'User Guide', link: '/user-guide/markdown-examples', activeMatch: '/user-guide/' },
+        { text: 'Blog', link: '/blog/markdown-examples', activeMatch: '/blog/' }
       ]
     },
     { text: 'About', link: '/about' },
