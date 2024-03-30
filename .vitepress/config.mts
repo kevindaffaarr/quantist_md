@@ -1,4 +1,4 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+import { defineConfig, type DefaultTheme, type HeadConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,7 +20,7 @@ export default defineConfig({
     footer: { message: "Quantist.io: Capturing The Silhouette of Data" }
   },
 
-  head: [ ['link', { rel: 'icon', href: '/favicon.ico' }] ],
+  head: head(),
   sitemap: { hostname: 'https://quantist.io' },
   
   appearance: "dark",
@@ -39,6 +39,26 @@ export default defineConfig({
     }
   },
 });
+
+function head(): HeadConfig[] {
+  return [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { property: 'og:title', content: 'Quantist.io' }],
+    ['meta', { property: 'og:description', content: 'Untuk investor dan trader yang yakin dan merdeka dalam setiap keputusan investasinya. Analisa foreign flow dan bandarmologi secara mandiri semudah chatting bersama Quantist.io!' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'id_ID' }],
+    ['meta', { property: 'og:image', content: '/brand.png' }],
+    ['meta', { property: 'og:url', content: 'https://quantist.io' }],
+    ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { property: 'twitter:title', content: 'Quantist.io' }],
+    ['meta', { property: 'twitter:description', content: 'Untuk investor dan trader yang yakin dan merdeka dalam setiap keputusan investasinya. Analisa foreign flow dan bandarmologi secara mandiri semudah chatting bersama Quantist.io!' }],
+    ['meta', { property: 'twitter:image', content: '/brand.png' }],
+    ['meta', { property: 'twitter:url', content: 'https://quantist.io' }],
+    ['meta', { property: 'twitter:site', content: '@quantist_io' }],
+    ['meta', { property: 'twitter:creator', content: '@quantist_io' }],
+    ['meta', { property: 'twitter:cta', content: 'Learn More' }],
+  ];
+}
 
 function nav(): DefaultTheme.NavItem[] {
   return [
@@ -79,6 +99,4 @@ function socialLinks(): DefaultTheme.SocialLink[] {
 }
 
 // TODO: Add Google Analytics
-// TODO: Add meta tags for SEO: og and twitter
 // TODO: About using Team Page
-// TODO: Auto sidebar and different sidebar for each section
