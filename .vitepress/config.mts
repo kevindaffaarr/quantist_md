@@ -19,7 +19,10 @@ export default defineConfig({
       "/blog/": { base: "/blog/", items: sidebarBlog() }
     },
     socialLinks: socialLinks(),
-    footer: { message: "Quantist.io: Capturing The Silhouette of Data" }
+    footer: { message: "Quantist.io: Capturing The Silhouette of Data" },
+    search: {
+      provider: 'local'
+    }
   },
 
   vite: {
@@ -128,4 +131,3 @@ function socialLinks(): DefaultTheme.SocialLink[] {
 }
 
 // TODO: Add Google Analytics
-// TODO: About using Team Page
