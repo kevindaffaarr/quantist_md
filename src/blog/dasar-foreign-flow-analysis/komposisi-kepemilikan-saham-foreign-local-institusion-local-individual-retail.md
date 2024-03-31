@@ -6,7 +6,7 @@ outline: 'deep'
 head:
   - - meta
     - name: og:title
-      content: Blog | Quantist.io
+      content: Komposisi Kepemilikan Saham Foreign - Local Institusion - Local Individual (Retail) | Quantist.io
   - - meta
     - name: og:description
       content: Sebanyak 0.34% entitas di pasar modal, alias investor asing, menguasai hampir setengah modal yang ada di IHSG (45.6%). Jika data tersebut menggambarkan komposisi kepemilikan secara keseluruhan di pasar modal, bagaimana dengan komposisi kepemilikan per sahamnya?
@@ -18,7 +18,7 @@ head:
       content: https://quantist.io/blog/komposisi-kepemilikan-saham-foreign-local-institusion-local-individual-retail
   - - meta
     - name: twitter:title
-      content: Blog | Quantist.io
+      content: Komposisi Kepemilikan Saham Foreign - Local Institusion - Local Individual (Retail) | Quantist.io
   - - meta
     - name: twitter:description
       content: Sebanyak 0.34% entitas di pasar modal, alias investor asing, menguasai hampir setengah modal yang ada di IHSG (45.6%). Jika data tersebut menggambarkan komposisi kepemilikan secara keseluruhan di pasar modal, bagaimana dengan komposisi kepemilikan per sahamnya?
@@ -30,7 +30,7 @@ head:
       content: https://quantist.io/blog/komposisi-kepemilikan-saham-foreign-local-institusion-local-individual-retail
 ---
 
-# Komposisi Kepemilikan Saham: Foreign - Local Institusion - Local Individual (Retail)
+# Komposisi Kepemilikan Saham Foreign - Local Institusion - Local Individual (Retail)
 
 Pada artikel [💪🏼 Kekuatan Investor Asing di Bursa Efek Indonesia (IHSG)](./kekuatan-investor-asing-di-bursa-efek-indonesia-ihsg), disebutkan **0.34%** entitas di pasar modal, alias investor asing, menguasai hampir setengah modal yang ada di IHSG (45.6%). Jika data tersebut menggambarkan komposisi kepemilikan secara keseluruhan di pasar modal, bagaimana dengan komposisi kepemilikan per sahamnya? 
 

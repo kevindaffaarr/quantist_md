@@ -6,7 +6,7 @@ outline: 'deep'
 head:
   - - meta
     - name: og:title
-      content: Blog | Quantist.io
+      content: Foreign Flow Analysis pada Saham Indonesia | Quantist.io
   - - meta
     - name: og:description
       content: Bagaimana cara menilai apakah foreign atau dana asing mengontrol suatu saham? Bagaimana cara menganalisis pergerakan saham menggunakan Foreign Flow Analysis? Setidaknya terdapat 6 indikator yang dapat digunakan, yaitu Foreign Volume Flow, Foreign Money Flow, Foreign VWAP, Foreign Volume Profile, Foreign Proportion, dan Foreign Price-Correlation.
@@ -18,7 +18,7 @@ head:
       content: https://quantist.io/blog/foreign-flow-analysis-pada-saham-indonesia
   - - meta
     - name: twitter:title
-      content: Blog | Quantist.io
+      content: Foreign Flow Analysis pada Saham Indonesia | Quantist.io
   - - meta
     - name: twitter:description
       content: Bagaimana cara menilai apakah foreign atau dana asing mengontrol suatu saham? Bagaimana cara menganalisis pergerakan saham menggunakan Foreign Flow Analysis? Setidaknya terdapat 6 indikator yang dapat digunakan, yaitu Foreign Volume Flow, Foreign Money Flow, Foreign VWAP, Foreign Volume Profile, Foreign Proportion, dan Foreign Price-Correlation.

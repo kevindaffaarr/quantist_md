@@ -6,7 +6,7 @@ outline: 'deep'
 head:
   - - meta
     - name: og:title
-      content: Blog | Quantist.io
+      content: Kekuatan Investor Asing di Bursa Efek Indonesia (IHSG) | Quantist.io
   - - meta
     - name: og:description
       content: Follow The Market, But Who Is The Market? Sebesar 0.34% entitas memiliki kekuatan yang sama dengan gabungan 99.66% lainnya! Big Money 0.34% bermain dengan 10 juta orang. Analisis Pergerakan Dana Asing, atau lebih dikenal sebagai Foreign Flow Analysis, merupakan turunan dari analisis teknikal lanjut, follow the giant merupakan prinsip utama dari analisis ini. Asumsi yang di bangun adalah smart money memiliki kemampuan mengendalikan pasar, dan tidak akan merugi.
@@ -18,7 +18,7 @@ head:
       content: https://quantist.io/blog/kekuatan-investor-asing-di-bursa-efek-indonesia-ihsg
   - - meta
     - name: twitter:title
-      content: Blog | Quantist.io
+      content: Kekuatan Investor Asing di Bursa Efek Indonesia (IHSG) | Quantist.io
   - - meta
     - name: twitter:description
       content: Follow The Market, But Who Is The Market? Sebesar 0.34% entitas memiliki kekuatan yang sama dengan gabungan 99.66% lainnya! Big Money 0.34% bermain dengan 10 juta orang. Analisis Pergerakan Dana Asing, atau lebih dikenal sebagai Foreign Flow Analysis, merupakan turunan dari analisis teknikal lanjut, follow the giant merupakan prinsip utama dari analisis ini. Asumsi yang di bangun adalah smart money memiliki kemampuan mengendalikan pasar, dan tidak akan merugi.

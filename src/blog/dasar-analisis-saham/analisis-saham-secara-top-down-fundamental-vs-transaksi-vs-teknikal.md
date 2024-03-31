@@ -6,7 +6,7 @@ outline: 'deep'
 head:
   - - meta
     - name: og:title
-      content: Blog | Quantist.io
+      content: Analisis Saham secara Top-Down - Fundamental vs Transaksi vs Teknikal | Quantist.io
   - - meta
     - name: og:description
       content: Seringkali kita temukan perdebatan antar investor saham yang menggunakan masing-masing jenis analisis andalannya, baik itu analisis fundamental, analisis teknikal, maupun analisis transaksi atau lebih dikenal dengan bandarmologi. Namun apabila kita zoom-out, seluruh jenis analisis tersebut adalah satu-kesatuan siklus market yang tidak terpisahkan.
@@ -18,7 +18,7 @@ head:
       content: https://quantist.io/blog/analisis-saham-secara-top-down-fundamental-vs-transaksi-vs-teknikal
   - - meta
     - name: twitter:title
-      content: Blog | Quantist.io
+      content: Analisis Saham secara Top-Down - Fundamental vs Transaksi vs Teknikal | Quantist.io
   - - meta
     - name: twitter:description
       content: Seringkali kita temukan perdebatan antar investor saham yang menggunakan masing-masing jenis analisis andalannya, baik itu analisis fundamental, analisis teknikal, maupun analisis transaksi atau lebih dikenal dengan bandarmologi. Namun apabila kita zoom-out, seluruh jenis analisis tersebut adalah satu-kesatuan siklus market yang tidak terpisahkan.
@@ -30,7 +30,7 @@ head:
       content: https://quantist.io/blog/analisis-saham-secara-top-down-fundamental-vs-transaksi-vs-teknikal
 ---
 
-# Analisis Saham secara Top-Down: Fundamental vs Transaksi vs Teknikal
+# Analisis Saham secara Top-Down - Fundamental vs Transaksi vs Teknikal
 
 > “*When you have managed the downside, the only way forward is up.”*
 

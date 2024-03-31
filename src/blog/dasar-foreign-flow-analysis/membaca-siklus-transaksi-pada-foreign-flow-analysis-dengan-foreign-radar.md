@@ -6,7 +6,7 @@ outline: 'deep'
 head:
   - - meta
     - name: og:title
-      content: Blog | Quantist.io
+      content: Membaca Siklus Transaksi pada Foreign Flow Analysis dengan Foreign Radar | Quantist.io
   - - meta
     - name: og:description
       content: Kita dapat mengeksplor lebih jauh perilaku foreign dengan membaginya menjadi 4 fase, yaitu akumulasi, mark up, mark down, dan distribusi. Siklus ini dapat tergambarkan pada Foreign Radar dengan Sumbu X sebagai pergerakan uang, dan Sumbu Y sebagai korelasi harga dan pergerakan asing. Dengan mempelajari siklus ini, kita dapat memilih dan menyusun strategi untuk tiap sahamnya yang lebih mudah.
@@ -18,7 +18,7 @@ head:
       content: https://quantist.io/blog/membaca-siklus-transaksi-pada-foreign-flow-analysis-dengan-foreign-radar
   - - meta
     - name: twitter:title
-      content: Blog | Quantist.io
+      content: Membaca Siklus Transaksi pada Foreign Flow Analysis dengan Foreign Radar | Quantist.io
   - - meta
     - name: twitter:description
       content: Kita dapat mengeksplor lebih jauh perilaku foreign dengan membaginya menjadi 4 fase, yaitu akumulasi, mark up, mark down, dan distribusi. Siklus ini dapat tergambarkan pada Foreign Radar dengan Sumbu X sebagai pergerakan uang, dan Sumbu Y sebagai korelasi harga dan pergerakan asing. Dengan mempelajari siklus ini, kita dapat memilih dan menyusun strategi untuk tiap sahamnya yang lebih mudah.
