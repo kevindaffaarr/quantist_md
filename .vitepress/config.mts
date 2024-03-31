@@ -79,7 +79,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     { text: 'User Guide', link: '/user-guide/quickstart', activeMatch: '/user-guide/*' },
     { text: 'Blog', link: '/blog/', activeMatch: '/blog/*' },
-    { text: 'About', link: '/about' },
+    { text: 'About', link: '/about', activeMatch: '/about' },
     { text: 'Donate', link: 'https://saweria.co/quantistio?utm_source=website&utm_medium=nav' }
   ];
 }
