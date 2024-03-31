@@ -1,4 +1,5 @@
 ---
+# --- Value below is need to be updated every pages ---
 description: Untuk investor dan trader yang yakin dan merdeka dalam setiap keputusan investasinya. Analisa foreign flow dan bandarmologi secara mandiri semudah chatting bersama Quantist.io!
 outline: 'deep'
 
@@ -29,8 +30,7 @@ head:
     - name: twitter:url
       content: https://quantist.io
 
-
-# Value below is already default
+# --- Value below is already default ---
 layout: doc
 navbar: true
 sidebar: true

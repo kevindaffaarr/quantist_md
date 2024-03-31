@@ -3,6 +3,7 @@ import { defineConfig, type DefaultTheme, type HeadConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // ignoreDeadLinks: true,
   lang: 'id-ID',
   title: "Quantist.io",
   description: "Untuk investor dan trader yang yakin dan merdeka dalam setiap keputusan investasinya. Analisa foreign flow dan bandarmologi secara mandiri semudah chatting bersama Quantist.io!",
@@ -27,7 +28,7 @@ export default defineConfig({
         {
           find: /^.*\/VPHero\.vue$/,
           replacement: fileURLToPath(
-            new URL('./components/VPHero-custom.vue', import.meta.url)
+            new URL('../components/VPHero-custom.vue', import.meta.url)
           )
         }
       ]
@@ -42,7 +43,7 @@ export default defineConfig({
   lastUpdated: true,
   
   srcDir: 'src',
-  srcExclude: ["./page-template.md"],
+  srcExclude: ["./page-template.md","**/draft*.md"],
   metaChunk: true,
   
   markdown: {
@@ -79,7 +80,7 @@ function nav(): DefaultTheme.NavItem[] {
     { text: 'Docs',
       items: [
         { text: 'User Guide', link: '/user-guide/markdown-examples', activeMatch: '/user-guide/' },
-        { text: 'Blog', link: '/blog/markdown-examples', activeMatch: '/blog/' }
+        { text: 'Blog', link: '/blog/', activeMatch: '/blog/' }
       ]
     },
     { text: 'About', link: '/about' },
@@ -96,10 +97,28 @@ function sidebarUserGuide(): DefaultTheme.SidebarItem[] {
 
 function sidebarBlog(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'Runtime API Examples', link: 'api-examples' },
-    { text: 'Markdown Examples', link: 'markdown-examples' },
+        { text: "🔖 Blog", base: "/", link: "blog/" },
+        {
+          text: "Dasar Analisis Saham",
+          base: "/blog/dasar-analisis-saham/",
+          collapsed: false,
+          items: [
+            { text: "⛰️ Analisis Saham secara Top-Down: Fundamental vs Transaksi vs Teknikal", link: "analisis-saham-secara-top-down-fundamental-vs-transaksi-vs-teknikal"}
+          ]
+        },
+        {
+          text: "Dasar Foreign Flow Analysis",
+          base: "/blog/dasar-foreign-flow-analysis/",
+          collapsed: false,
+          items: [
+            { text: "💪🏼 Kekuatan Investor Asing di Bursa Efek Indonesia (IHSG)", link: "kekuatan-investor-asing-di-bursa-efek-indonesia-ihsg"},
+            { text: "🎪 Foreign Flow Analysis pada Saham Indonesia", link: "foreign-flow-analysis-pada-saham-indonesia"},
+            { text: "🔁 Membaca Siklus Transaksi pada Foreign Flow Analysis dengan Foreign Radar", link: "membaca-siklus-transaksi-pada-foreign-flow-analysis-dengan-foreign-radar"},
+            { text: "🥧 Komposisi Kepemilikan Saham: Foreign - Local Institusion - Local Individual (Retail)", link: "komposisi-kepemilikan-saham-foreign-local-institusion-local-individual-retail"},
+          ]
+        }
   ];
-}
+};
 
 function socialLinks(): DefaultTheme.SocialLink[] {
   return [
