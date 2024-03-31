@@ -77,12 +77,8 @@ function head(): HeadConfig[] {
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    { text: 'Docs',
-      items: [
-        { text: 'User Guide', link: '/user-guide/markdown-examples', activeMatch: '/user-guide/' },
-        { text: 'Blog', link: '/blog/', activeMatch: '/blog/' }
-      ]
-    },
+    { text: 'User Guide', link: '/user-guide/quickstart', activeMatch: '/user-guide/*' },
+    { text: 'Blog', link: '/blog/', activeMatch: '/blog/*' },
     { text: 'About', link: '/about' },
     { text: 'Donate', link: 'https://saweria.co/quantistio?utm_source=website&utm_medium=nav' }
   ];
@@ -90,8 +86,8 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebarUserGuide(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'Markdown Examples', link: 'markdown-examples' },
-    { text: 'Runtime API Examples', link: 'api-examples' },
+    { text: 'Quickstart', link: 'quickstart' },
+    { text: 'Command List', link: 'command-list' },
   ];
 }
 
