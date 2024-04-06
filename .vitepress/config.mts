@@ -51,7 +51,6 @@ export default defineConfig({
   
   markdown: {
     lineNumbers: true,
-    math: true,
     image: {
       lazyLoading: true
     }
