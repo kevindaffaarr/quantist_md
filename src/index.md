@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 🤖 Telegram Bot
       link: https://t.me/quantistiobot
+    - theme: brand
+      text: 💻 Web Charts
+      link: https://app.quantist.io/web
     - theme: alt
       text: ⚡Quickstart
       link: /user-guide/quickstart
