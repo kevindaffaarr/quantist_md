@@ -87,7 +87,7 @@ function head(): HeadConfig[] {
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    { text: 'Web Charts', link: 'https://app.quantist.io/web' },
+    // { text: 'Web Charts', link: 'https://app.quantist.io/web' },
     { text: 'User Guide', link: '/user-guide/quickstart', activeMatch: '/user-guide/*' },
     { text: 'Blog', link: '/blog/', activeMatch: '/blog/*' },
     { text: 'About', link: '/about', activeMatch: '/about' },
